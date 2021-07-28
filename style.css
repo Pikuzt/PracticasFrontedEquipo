@@ -7,6 +7,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 main section div .perfil {
@@ -25,8 +26,8 @@ main section div .cabecera {
 }
 
 main {
-    width: 80vw;
-    height: 80vh;
+    width: 100vw;
+    height: 100vh;
     background-color: blue;
     display: flex;
     align-items: center;
@@ -36,10 +37,11 @@ main {
 main section {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(128, 128, 201);
+    background-color: hsl(185, 75%, 39%);
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 main section div {
@@ -62,4 +64,18 @@ main section div p {
 main section div span {
     font-weight: 600;
     color: rgb(133, 132, 132);
+}
+
+.heading {
+    position: absolute;
+    left: -30%;
+    top: -70%;
+    overflow: hidden;
+}
+
+.heading2 {
+    position: absolute;
+    right: -30%;
+    bottom: -70%;
+    overflow: hidden;
 }
